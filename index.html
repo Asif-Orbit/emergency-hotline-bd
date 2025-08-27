@@ -31,7 +31,7 @@
                 <div class="flex items-center justify-center mt-3 md:mt-0">
                     <p
                         class="text-[#000000] bg-[#41ff6b1a] ml-[10px] md:ml-[20px] w-[100px] md:w-[123px] h-[40px] md:h-[52px] flex items-center justify-center rounded-[50px] shadow-lg shadow-[#00000040]">
-                        <span class="font-black"> 0 </span> <img src="./assets/heart.png" alt=""
+                        <span class="font-black" id="heart-count"> 0 </span> <img src="./assets/heart.png" alt=""
                             class="w-[30px] h-[30px] ml-[10px]">
                     </p>
                     <p
@@ -62,12 +62,13 @@
         <!-- card section  -->
         <section class="max-w-[1800px] mx-auto">
             <div class="flex flex-col md:flex-row">
-                <div class="grid md:grid-cols-3 gap-3 md:gap-4 mb-4 md:mb-0">
+                <!-- first card -->
+                <div class="grid md:grid-cols-3 gap-4 md:gap-7 mb-4 md:mb-0">
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/emergency.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i  class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">National Emergency Number</h2>
                         <p class="text-[#5C5C5C] text-[18px]">National Emergency</p>
@@ -83,11 +84,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- second card -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/police.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i  class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Police Helpline Number</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Police</p>
@@ -103,11 +105,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- third card -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/fire-service.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Fire Service Number</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Fire Service</p>
@@ -123,11 +126,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- fourth card -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/ambulance.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Ambulance Service</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Ambulance</p>
@@ -143,11 +147,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- fifth card -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/emergency.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Women & Child Helpline</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Women & Child Helpline</p>
@@ -163,11 +168,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- sixth card  -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/emergency.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Anti-Corruption Helpline</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Anti-Corruption</p>
@@ -183,11 +189,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- seventh card -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/emergency.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Electricity Helpline</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Electricity Outage</p>
@@ -203,11 +210,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- eighth card -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/brac.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Brac Helpline</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Brac</p>
@@ -223,11 +231,12 @@
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
+                    <!-- ninth card -->
                     <div class="max-w-[430px] p-[32px] bg-[#ffffff] rounded-xl shadow-lg shadow-[#00000026]">
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/Bangladesh-Railway.png"
                                     alt="" class="w-[32px] h-[32px]"></div>
-                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
                         <h2 class="font-bold text-[24px] text-[#111111] mt-4">Bangladesh Railway Helpline</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Bangladesh Railway</p>
@@ -257,6 +266,9 @@
 
 
     </main>
+
+    <!-- js connection  -->
+     <script src="./script.js"></script>
 </body>
 
 </html>
