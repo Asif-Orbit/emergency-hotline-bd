@@ -3,7 +3,13 @@ function innerTextToNumber(id){
     const innerNumber = parseInt(document.getElementById(id).innerText);
     return innerNumber;
 }
-// function to show calling alert
+// function to count copy text
+function copyText(){
+        const copyCount = innerTextToNumber("copy-count");
+        let copy = document.getElementById("copy-count")
+        const sum = copyCount + 1;
+        copy.innerText = sum;
+    }
 
 // heart count section
 const hearts = document.getElementsByClassName("heart");
@@ -300,10 +306,66 @@ document.getElementById("call-btn-9").addEventListener("click", function(){
       document.getElementById("calling-history").appendChild(div)
 
     })
-
+    
     // function for clear button 
     document.getElementById("clear-btn").addEventListener("click", function(){
         const callingHistory = document.getElementById("calling-history")
         callingHistory.innerText="";
     })
+
+    // copy button function for national emergency number 
+    document.getElementById("copy-btn-1").addEventListener("click", function(){
+        alert("copying National Emergency Number 999");
+        navigator.clipboard.writeText("999");
+        copyText();
+    })
+    // copy button function for Police Helpline number 
+    document.getElementById("copy-btn-2").addEventListener("click", function(){
+        alert("copying Police Helpline Number 999");
+        navigator.clipboard.writeText("999");
+        copyText();
+    })
+    // copy button function for Fire Service number 
+    document.getElementById("copy-btn-3").addEventListener("click", function(){
+        alert("copying Fire Service Number 999");
+        navigator.clipboard.writeText("999");
+        copyText();
+    })
+    // copy button function for Ambulance Service number 
+    document.getElementById("copy-btn-4").addEventListener("click", function(){
+        alert("copying Ambulance Service number 1994-999999");
+        navigator.clipboard.writeText("1994-999999");
+        copyText();
+    })
+    // copy button function for Women & Child Helpline number 
+    document.getElementById("copy-btn-5").addEventListener("click", function(){
+        alert("copying Women & Child Helpline number 109");
+        navigator.clipboard.writeText("109");
+        copyText();
+    })
+    // copy button function for Anti-Corruption Helpline number 
+    document.getElementById("copy-btn-6").addEventListener("click", function(){
+        alert("copying Anti-Corruption Helpline number 106");
+        navigator.clipboard.writeText("106");
+        copyText();
+    })
+     // copy button function for Electricity Helpline number 
+    document.getElementById("copy-btn-7").addEventListener("click", function(){
+        alert("copying Electricity Helpline Number 16216");
+        navigator.clipboard.writeText("16216");
+        copyText();
+    })
+    // copy button function for Brac Helpline number 
+    document.getElementById("copy-btn-8").addEventListener("click", function(){
+        alert("copying Brac Helpline Number 16445");
+        navigator.clipboard.writeText("16445");
+        copyText();
+    })
+    // copy button function for Bangladesh Railway Helpline number 
+    document.getElementById("copy-btn-9").addEventListener("click", function(){
+        alert("copying Bangladesh Railway Helpline Number 163");
+        navigator.clipboard.writeText("163");
+        copyText();
+    })
+   
 
