@@ -301,3 +301,9 @@ document.getElementById("call-btn-9").addEventListener("click", function(){
 
     })
 
+    // function for clear button 
+    document.getElementById("clear-btn").addEventListener("click", function(){
+        const callingHistory = document.getElementById("calling-history")
+        callingHistory.innerText="";
+    })
+
