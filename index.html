@@ -36,7 +36,7 @@
                     </p>
                     <p
                         class="text-[#000000] bg-[#41ff6b1a] ml-[10px] md:ml-[20px] w-[100px] md:w-[123px] h-[40px] md:h-[52px] flex items-center justify-center rounded-[50px] shadow-lg shadow-[#00000040] ">
-                        <span class="font-black"> 100 </span> <img src="./assets/coin.png" alt=""
+                        <span class="font-black" id="available-coin"> 100 </span> <img src="./assets/coin.png" alt=""
                             class="w-[24px] h-[24px] ml-[10px]">
                     </p>
                     <p
@@ -68,19 +68,19 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/emergency.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i  class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
-                        <h2 class="font-bold text-[24px] text-[#111111] mt-4">National Emergency Number</h2>
+                        <h2 class="font-bold text-[24px] text-[#111111] mt-4 name">National Emergency Number</h2>
                         <p class="text-[#5C5C5C] text-[18px]">National Emergency</p>
                         <p class="font-bold text-[32px] text-[#111111] mt-6">999</p>
                         <p
                             class="text-[18px] text-[#5C5C5C] bg-[#F2F2F2] rounded-full pt-[6px] pb-[6px] pr-[16px] pl-[16px] inline-block">
                             All</p> <br>
                         <div class="mt-6">
-                            <button
+                            <button 
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-1"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -89,9 +89,9 @@
                         <div class="flex justify-between items-center">
                             <div class="bg-[#FFE3E2] rounded-2xl p-[14px]"><img src="./assets/police.png" alt=""
                                     class="w-[32px] h-[32px]"></div>
-                            <i  class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
+                            <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
-                        <h2 class="font-bold text-[24px] text-[#111111] mt-4">Police Helpline Number</h2>
+                        <h2 class="font-bold text-[24px] text-[#111111] mt-4 name">Police Helpline Number</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Police</p>
                         <p class="font-bold text-[32px] text-[#111111] mt-6">999</p>
                         <p
@@ -100,8 +100,8 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-2"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                                     class="w-[32px] h-[32px]"></div>
                             <i class="fa-regular fa-heart text-[#5C5C5C] text-2xl heart cursor-pointer"></i>
                         </div>
-                        <h2 class="font-bold text-[24px] text-[#111111] mt-4">Fire Service Number</h2>
+                        <h2 class="font-bold text-[24px] text-[#111111] mt-4 name">Fire Service Number</h2>
                         <p class="text-[#5C5C5C] text-[18px]">Fire Service</p>
                         <p class="font-bold text-[32px] text-[#111111] mt-6">999</p>
                         <p
@@ -121,8 +121,8 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-3"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -142,8 +142,8 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-4"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -163,8 +163,8 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-5"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -184,8 +184,8 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-6"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -205,8 +205,8 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-7"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -226,8 +226,8 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-8"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
@@ -247,18 +247,24 @@
                         <div class="mt-6">
                             <button
                                 class="btn w-[170px] md:w-[180px] border-1 border-[#D4D6D5] bg-[#FFFFFF] text-[#5C5C5C] rounded-lg"><i
-                                    class="fa-regular fa-copy"></i> Copy</button> <button
-                                class="btn w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
+                                    class="fa-regular fa-copy"></i> Copy</button> <button id="call-btn-9"
+                                class="btn  w-[170px] md:w-[180px] border-none rounded-lg bg-[#00A63E] text-[#FFFFFF] text-[16px] font-normal"><i
                                     class="fa-solid fa-phone"></i> Call</button>
                         </div>
                     </div>
                 </div>
 
                 <!-- call history section  -->
-                <div class="w-[400px] mx-auto bg-[#FFFFFF] p-6 rounded-xl ml-[5px] md:ml-[40px] shadow-lg shadow-[#00000026]">
+                <div
+                    class="w-[400px] mx-auto bg-[#FFFFFF] p-6 rounded-xl ml-[5px] md:ml-[40px] shadow-lg shadow-[#00000026]">
                     <div class="flex justify-between items-center">
-                        <p class="text-[#111111] text-[20px] font-medium"><i class="fa-regular fa-clock text-[#5C5C5C]"></i> Call History</p>
-                        <button class="bg-[#00A63E] text-[#FFFFFF] pt-[14px] pb-[14px] pr-9 pl-9 rounded-[50px]">Clear</button>
+                        <p class="text-[#111111] text-[20px] font-medium"><i
+                                class="fa-regular fa-clock text-[#5C5C5C]"></i> Call History</p>
+                        <button
+                            class="bg-[#00A63E] text-[#FFFFFF] pt-[14px] pb-[14px] pr-9 pl-9 rounded-[50px]">Clear</button>
+                    </div>
+                    <div id="calling-history">
+                        
                     </div>
                 </div>
             </div>
@@ -268,7 +274,7 @@
     </main>
 
     <!-- js connection  -->
-     <script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
