@@ -30,7 +30,7 @@ let history = [];
 document.getElementById("call-btn-1").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -62,7 +62,7 @@ document.getElementById("call-btn-1").addEventListener("click", function(){
 document.getElementById("call-btn-2").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -93,7 +93,7 @@ document.getElementById("call-btn-2").addEventListener("click", function(){
 document.getElementById("call-btn-3").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -124,7 +124,7 @@ document.getElementById("call-btn-3").addEventListener("click", function(){
 document.getElementById("call-btn-4").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -155,7 +155,7 @@ document.getElementById("call-btn-4").addEventListener("click", function(){
 document.getElementById("call-btn-5").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -186,7 +186,7 @@ document.getElementById("call-btn-5").addEventListener("click", function(){
 document.getElementById("call-btn-6").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -217,7 +217,7 @@ document.getElementById("call-btn-6").addEventListener("click", function(){
 document.getElementById("call-btn-7").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -248,7 +248,7 @@ document.getElementById("call-btn-7").addEventListener("click", function(){
 document.getElementById("call-btn-8").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
@@ -279,7 +279,7 @@ document.getElementById("call-btn-8").addEventListener("click", function(){
 document.getElementById("call-btn-9").addEventListener("click", function(){
         const coin = innerTextToNumber("available-coin")
         let coins = document.getElementById("available-coin")
-        if(coin === 0){
+        if(coin < 20){
             alert("You don't have enough coins. needed at least 20 coins.");
             return;
         }
