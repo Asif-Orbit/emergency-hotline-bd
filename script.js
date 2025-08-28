@@ -295,12 +295,12 @@ document.getElementById("call-btn-9").addEventListener("click", function(){
         history.push(historyData);
         const div = document.createElement("div");
         div.innerHTML = `
-        <div class="flex justify-between items-center w-[350px] bg-[#FAFAFA] p-[16px] rounded-lg mt-[16px] shadow-lg">
+        <div class="flex justify-between items-center w-[300px] bg-[#FAFAFA] p-[16px] rounded-lg mt-[16px] shadow-lg">
                             <div>
-                                <h1 class="font-semibold">${historyData.name}</h1>
+                                <h1 class="font-semibold text-sm">${historyData.name}</h1>
                                 <p class="text-[#5C5C5C] text-[18px]">${historyData.number}</p>
                             </div>
-                            <p class="text-[#111111]">${historyData.date}</p>
+                            <p class="text-[#111111] text-sm">${historyData.date}</p>
                         </div>
         `
       document.getElementById("calling-history").appendChild(div)
